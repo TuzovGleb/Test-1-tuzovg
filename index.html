@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLEB.EXE - Personal Website v1.0</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="crt-overlay"></div>
+
+    <!-- Boot Screen -->
+    <div id="boot-screen" class="boot-screen">
+        <div class="boot-text">
+            <p>SYSTEM BOOT v2.1.0</p>
+            <p>Loading GLEB.EXE...</p>
+            <p class="blinking-cursor">█</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="hidden">
+        <!-- Header / Navigation -->
+        <header class="pixel-border">
+            <div class="header-content">
+                <h1 class="glitch" data-text="&gt; GLEB_TUZOV.SYS">&gt; GLEB_TUZOV.SYS</h1>
+                <p class="subtitle">[ Developer | Ironist | Pixel Pusher ]</p>
+            </div>
+            <nav class="retro-nav">
+                <button class="nav-btn" data-section="about">ABOUT.TXT</button>
+                <button class="nav-btn" data-section="projects">PROJECTS.DIR</button>
+                <button class="nav-btn" data-section="contact">CONTACT.BAT</button>
+            </nav>
+        </header>
+
+        <!-- Main Container -->
+        <main class="container">
+            <!-- About Section -->
+            <section id="about" class="section active pixel-border">
+                <div class="section-header">
+                    <h2>C:\USER\ABOUT.TXT</h2>
+                    <span class="blinking-cursor">_</span>
+                </div>
+                <div class="terminal-content">
+                    <p class="typing-text">
+                        &gt; Привет! Я разработчик, который пишет код с 80-х...
+                        точнее, хотел бы писать с 80-х, но родился позже.
+                    </p>
+                    <p class="typing-text">
+                        &gt; Создаю проекты, которые работают (иногда даже с первого раза!).
+                    </p>
+                    <p class="typing-text">
+                        &gt; Люблю пиксели, синтаксис и синтезаторы.
+                    </p>
+                    <div class="ascii-art">
+<pre>
+    ___________
+   |  _     _  |
+   | | |   | | |
+   | | |___| | |
+   | |_______| |
+   |___________|
+   [  COMPUTER  ]
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section hidden pixel-border">
+                <div class="section-header">
+                    <h2>C:\USER\PROJECTS.DIR</h2>
+                    <span class="blinking-cursor">_</span>
+                </div>
+                <div class="terminal-content">
+                    <div class="project-list">
+                        <div class="project-item pixel-border">
+                            <h3>[PROJECT_001.EXE]</h3>
+                            <p class="project-desc">
+                                💾 Супер-пупер проект, который делает то, что должен делать...
+                                но только по вторникам после обеда. В остальное время - это баг, а не фича.
+                            </p>
+                            <div class="project-stats">
+                                <span class="stat">STATUS: [РАБОТАЕТ]</span>
+                                <span class="stat">BUGS: [N/A]*</span>
+                            </div>
+                            <p class="fine-print">*На самом деле куча, но кто считает?</p>
+                        </div>
+
+                        <div class="project-item pixel-border">
+                            <h3>[PROJECT_002.BAT]</h3>
+                            <p class="project-desc">
+                                🕹️ Игра, которая научит вас терпению. И дебаггингу.
+                                Больше дебаггингу, чем терпению, если честно.
+                            </p>
+                            <div class="project-stats">
+                                <span class="stat">STATUS: [В РАЗРАБОТКЕ]</span>
+                                <span class="stat">FPS: [ЗАВИСИТ ОТ НАСТРОЕНИЯ]</span>
+                            </div>
+                        </div>
+
+                        <div class="project-item pixel-border">
+                            <h3>[PROJECT_003.SYS]</h3>
+                            <p class="project-desc">
+                                🎮 Веб-приложение из будущего... то есть из прошлого...
+                                в общем, ретро-футуризм в действии!
+                            </p>
+                            <div class="project-stats">
+                                <span class="stat">STATUS: [LEGACY CODE]</span>
+                                <span class="stat">COFFEE: [REQUIRED]</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section hidden pixel-border">
+                <div class="section-header">
+                    <h2>C:\USER\CONTACT.BAT</h2>
+                    <span class="blinking-cursor">_</span>
+                </div>
+                <div class="terminal-content">
+                    <p>&gt; Хотите связаться? Выберите протокол:</p>
+                    <div class="contact-methods">
+                        <div class="contact-item pixel-border">
+                            <span class="icon">📧</span>
+                            <span>EMAIL.SYS</span>
+                            <a href="mailto:your.email@example.com" class="pixel-btn">CONNECT</a>
+                        </div>
+                        <div class="contact-item pixel-border">
+                            <span class="icon">🐙</span>
+                            <span>GITHUB.IO</span>
+                            <a href="https://github.com/yourusername" target="_blank" class="pixel-btn">CONNECT</a>
+                        </div>
+                        <div class="contact-item pixel-border">
+                            <span class="icon">💼</span>
+                            <span>LINKEDIN.COM</span>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="pixel-btn">CONNECT</a>
+                        </div>
+                        <div class="contact-item pixel-border">
+                            <span class="icon">🐦</span>
+                            <span>TWITTER.EXE</span>
+                            <a href="https://twitter.com/yourusername" target="_blank" class="pixel-btn">CONNECT</a>
+                        </div>
+                    </div>
+                    <div class="ascii-art">
+<pre>
+   _______________
+  |  ___________  |
+  | |           | |
+  | |  READY    | |
+  | |___________| |
+  |_______________|
+     [  MODEM  ]
+</pre>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="pixel-border">
+            <p>&copy; 2026 GLEB_TUZOV.SYS | Made with ❤️ and много багов | Version 1.0.0</p>
+            <p class="easter-egg">Нажми Ctrl+Alt+Del для выхода... шутка, не надо!</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
